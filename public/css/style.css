@@ -13,19 +13,15 @@
      
 
     /* HEADER */
-    #Banner{
-        display: block;
-        }
 
     .burger-menu{
      background-color: #0044AA;
      border-radius: 5px;
      color: #FFF;
-     font-size: 20px;
-     height: 40px;
-     margin: 10px 0px 20px 0px;
-     padding: 10px;
-     width: 40px;}
+     width: 23px;
+     height: 23px;
+     margin: 20px;
+     padding: 4px;}
 
 
     /* FOOTER */
@@ -37,6 +33,10 @@
     
     footer.textoFooter{
         width: 10px;
+    }
+
+    footer div i{
+        color: #0044AA;
     }
 
     /* MAIN */
@@ -62,13 +62,14 @@
 
     .descuentos{
         color: #39b54a;
+        font-size: 16px;
         }
     
     .precio {
         font-size: 18px;
     }
 
-    .descuentos .descripciones{
+    .descripciones{
         font-size: 16px;
     }
 
