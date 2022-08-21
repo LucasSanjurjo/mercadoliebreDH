@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,45 +9,42 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">    
-    </head>
-    <body>
-        <header>
-             <div>
-               <img src="/images/logo-mercado-liebre.svg" alt="mercado liebre" width=200px height=200px>
-             </div>
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <img src="/images/logo-mercado-liebre.svg" class="logo">
+            <h2 class="copy-header">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </h2>
+        </div>
 
-      <input type="buscá"> <i class="fas fa-search"></i>
+        <a href="" class="hamburguer-button">
+            <i class="fas fa-bars"></i>
+        </a>
 
-             <div> 
-                <i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito  
-            </div> 
-      
-      <nav>
-         <ul>
-            <li> <a href="">Ofertas</a> </li>
-            <li> <a href="">Tiendas Oficiales</a></li>
-            <li> <a href="">Vender</a></li>
-            <li> <a href="">Ayuda</a></li>
+        <nav class="main-navbar">
+            <ul class="left-navbar">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
 
-            <li> <a href="">Creá tu cuenta <i class="far fa-id-card"></i></a> </li>
-            <li> <a href="">Ingresá <i class="fas fa-sign-in-alt"></i></a> </li>
-            <li> <a href="">Mis compras  <i class="fas fa-shopping-basket"></i></a> </li>
-          </ul>
-      </nav>
-
-      <div class="burger-menu">
-        <i class="fas fa-bars"></i> 
-      </div>
+            <ul class="right-navbar">
+                <li><a href="#">Creá tu cuenta <i class="fas fa-credit-card"></i></a></li>
+                <li><a href="#">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#">Mis Compras <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav>
 
     </header>
 
-    <div>
-    <img id="Banner" src="/images/img-home-banner.jpg" alt="">
-    </div>
-
-   <main>
+ <main>
+    <h3>Basado en tu última visita</h3>
       <section class="last-visit">
-          <h3>Basado en tu última visita</h3>
+          
           <div class="products">
               <article>
                   <img src="images/img-cafetera-moulinex.jpg" alt="Cafetera" class="product_img">
@@ -87,8 +84,9 @@
               </article>
           </div>
       </section>
+      <h3>Ofertas</h3>
       <section class="offers">
-          <h3>Ofertas</h3>
+          
           <div class="products">
               <article>
                   <img src="images/img-cafetera-moulinex.jpg" alt="Cafetera" class="product_img">
@@ -128,10 +126,10 @@
               </article>
           </div>  
       </section>
-  </main>
+ </main>
 
 
-    <footer>
+ <footer>
           <div>
             <i class="fas fa-credit-card"></i>
             <h4>Pagá con tarjeta o en efectivo</h4>
@@ -154,7 +152,7 @@
             <h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
          </div>
    
-    </footer>
+ </footer>
 
 
 </body>
