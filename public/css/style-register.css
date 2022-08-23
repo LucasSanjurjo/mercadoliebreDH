@@ -62,30 +62,31 @@ body{
     font-size: 17px;
 }
 
-/* MAIN */____________________________________________________________________________________________________
-.main-form {
-padding: 20px 15px;
-background-color: green;
+/* FORM */____________________________________________________________________________________________________
+.create-form {
+    padding: 20px 15px;
+}
+.div-form {
+    box-shadow: 10px 10px;
+    padding: 15px;
+    background-color: rgb(143, 194, 197);
+    width: 50%;
+    margin: auto;
 }
 
-
-input {
-    display: block;
-    font-style: italic;
-}
 .control-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 40%;
-    margin: 10px;
-}
-.control-form label {
-    margin: 5px;
-    font-style: italic;
-    display: block;
+    margin: 15px ;
 }
 
+.control-form label {
+    display: block;
+    font-style: italic;
+    margin: 15px ;
+}
+.control {
+    width: 100%;
+    padding: 8px;
+}
 /* FOOTER */____________________________________________________________________________________________________
 footer{
     padding: 40px;
@@ -107,6 +108,9 @@ footer div i{
     color: #0044AA;
     margin-bottom: 10px;
        }
+.footer-element {
+    margin-top: 20px;
+}
        /* MEDIAQUERIES _____________________________________________________________________________________________*/
 
        @media (min-width: 361px) {
