@@ -129,7 +129,7 @@ article div.main-article{
     flex-grow: 0.7;
 }
 
-/* FOOTER */
+/* FOOTER */____________________________________________________________________________________________________
 footer{
      padding: 40px;
      border-top: solid 1px;
@@ -149,8 +149,8 @@ footer div i{
      size: 2em;
      color: #0044AA;
      margin-bottom: 10px;
-        }/* 
-_______________________________________________________________________MEDIAQUERIES */
+        }
+        /* MEDIAQUERIES _____________________________________________________________________________________________*/
 
         @media (min-width: 361px) {
             main section article {
