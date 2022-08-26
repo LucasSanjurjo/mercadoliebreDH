@@ -6,8 +6,13 @@ body {
   font-family: "Roboto", sans-serif;
 }
 /* /* HEADER */
-____________________________________________________________________________
-  .main-header {
+
+header {
+  background-color: #eac926;
+  padding: 20px;
+}
+
+.main-header {
   background-color: #eac926;
   padding: 20px;
 }
@@ -62,7 +67,7 @@ ____________________________________________________________________________
 }
 
 /* /*MAIN*/
-________________________________________________________________________________
+
   main {
   width: 90%;
   margin: 0 auto;
@@ -71,7 +76,7 @@ ________________________________________________________________________________
 main section article {
   text-align: center;
   background-color: #fff;
-  margin: 10px 0px;
+  margin: 10px 10px;
 }
 
 main section article img {
@@ -101,7 +106,12 @@ main section h3 {
   margin: 20px 0px;
 }
 
-article div.main-article {
+.last-visit {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-article {
   width: 100%;
   flex-wrap: wrap;
   align-items: baseline;
@@ -148,15 +158,14 @@ main section article:hover .description {
 }
 
 /* FOOTER */
-____________________________________________________________________________________________________
-  footer {
-  padding: 40px;
-  border-top: solid 1px;
-  margin: 40px;
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
 }
 footer div {
   margin: auto;
-  width: 30%;
   text-align: center;
 }
 
@@ -169,10 +178,8 @@ footer div i {
   color: #0044aa;
   margin-bottom: 10px;
 }
-.footer-element {
-  margin-top: 20px;
-}
-/* MEDIAQUERIES _____________________________________________________________________________________________*/
+
+/* MEDIAQUERIES */
 
 @media (min-width: 361px) {
   main section article {

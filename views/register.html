@@ -47,10 +47,12 @@
 
         <ul class="right-navbar">
           <li>
-            <a href="#">Creá tu cuenta <i class="fas fa-credit-card"></i></a>
+            <a href="/registro"
+              >Creá tu cuenta <i class="fas fa-credit-card"></i
+            ></a>
           </li>
           <li>
-            <a href="#">Ingresá <i class="fas fa-sign-in-alt"></i></a>
+            <a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a>
           </li>
           <li>
             <a href="#">Mis Compras <i class="fas fa-shopping-basket"></i></a>
@@ -77,19 +79,38 @@
           <input type="text" class="control" />
         </div>
         <div class="control-form">
-          <label for="perfil">Perfil del usuario</label>
-          <input type="radio" name="perfil" value="comprar" class="control" />
-          compra
-          <input type="radio" name="perfil" value="vender" class="control" />
-          vende
+          <h3>Perfil del usuario</h3>
+          <div>
+            <input type="radio" name="perfil" id="compra" />
+            <label for="compra"> Compra </label>
+          </div>
+          <div>
+            <input type="radio" name="perfil" id="vende" />
+            <label for="vende"> Vende </label>
+          </div>
         </div>
         <div class="control-form">
-          <label for="interes">Categoria de interes</label>
-          <input type="checkbox" class="control" /> Electro
-          <input type="checkbox" class="control" /> Moda
-          <input type="checkbox" class="control" /> Hogar
-          <input type="checkbox" class="control" /> Jugeteria
-          <input type="checkbox" class="control" /> Vida Sana
+          <h3>Categoria de interes</h3>
+          <div>
+            <input type="checkbox" id="electro" />
+            <label for="electro"> Electro </label>
+          </div>
+          <div>
+            <input type="checkbox" id="moda" />
+            <label for="moda"> Moda </label>
+          </div>
+          <div>
+            <input type="checkbox" id="hogar" />
+            <label for="hogar"> Hogar </label>
+          </div>
+          <div>
+            <input type="checkbox" id="jugeteria" />
+            <label for="jugeteria"> Jugeteria </label>
+          </div>
+          <div>
+            <input type="checkbox" id="vida sana" />
+            <label for="vida sana"> Vida Sana </label>
+          </div>
         </div>
         <div class="control-form">
           <label for="imagen">Foto de usuario</label>
@@ -103,42 +124,46 @@
           <label for="password2">Confirma Contraseña</label>
           <input type="password" name="password2" id="" class="control" />
         </div>
-        <div class="control-form">
-          <input type="submit" value="Crear Cuenta" />
+        <div class="control-form" id="button">
+          <input type="submit" value="Crear Cuenta" id="control-button"/>
         </div>
-        <div class="control-form">
-          <button type="reset">Borrar</button>
+        <div class="control-form" id="button">
+          <button type="reset" id="control-button">Borrar</button>
         </div>
       </form>
     </div>
 
     <footer>
-      <div class="footer-element">
-        <i class="fas fa-credit-card"></i>
-        <h4>Pagá con tarjeta o en efectivo</h4>
-        <p class="textoFooter">
-          Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo
-          en puntos de pago. ¡Y siempre es seguro!
-        </p>
-      </div>
-      <div class="footer-element">
-        <i class="fas fa-gift"></i>
-        <h4>Envío gratis desde $ 2.500</h4>
-        <p class="textoFooter">
-          Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
-          miles de productos. Es un beneficio de Mercado Puntos.
-        </p>
-      </div>
-      <div class="footer-element">
-        <i class="fas fa-user-shield"></i>
-        <h4>Seguridad, de principio a fin</h4>
-        <p class="textoFooter">
-          ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
-          hacer, porque estás siempre protegid@.
-        </p>
-      </div>
-      <div class="footer-element">
-        <h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
+      <div class="footer">
+        <div class="footer-info">
+          <div>
+            <i class="fas fa-credit-card"></i>
+            <h4>Pagá con tarjeta o en efectivo</h4>
+            <p class="textoFooter">
+              Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
+              efectivo en puntos de pago. ¡Y siempre es seguro!
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-gift"></i>
+            <h4>Envío gratis desde $ 2.500</h4>
+            <p class="textoFooter">
+              Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
+              miles de productos. Es un beneficio de Mercado Puntos.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-user-shield"></i>
+            <h4>Seguridad, de principio a fin</h4>
+            <p class="textoFooter">
+              ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no
+              puedas hacer, porque estás siempre protegid@.
+            </p>
+          </div>
+        </div>
+        <div>
+          <h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
+        </div>
       </div>
     </footer>
   </body>
