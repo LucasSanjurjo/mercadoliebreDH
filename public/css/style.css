@@ -66,9 +66,13 @@ header {
   font-size: 17px;
 }
 
+.banner {
+  width: 100%;
+  margin-top: 10px;
+}
 /* /*MAIN*/
 
-  main {
+main {
   width: 90%;
   margin: 0 auto;
 }
@@ -159,8 +163,10 @@ main section article:hover .description {
 
 .main-article i:hover {
   transform: rotate(-180deg);
-  transition: 1000ms;
-  
+  transition: all 1000ms;
+  transition-property: all;
+  transition-duration: 1000ms;
+  transition-timing-function: ease;
 }
 
 /* FOOTER */
