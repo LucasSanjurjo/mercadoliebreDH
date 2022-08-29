@@ -157,6 +157,12 @@ main section article:hover .description {
   visibility: visible;
 }
 
+.main-article i:hover {
+  transform: rotate(-180deg);
+  transition: 1000ms;
+  
+}
+
 /* FOOTER */
 
 .footer-info {
